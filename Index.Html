@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Cristal Coleccionista</title>
+
+    <script src="../Unit-4-Crystal-Game/Assets/JavaScript/Game.js"></script>
+
+    <link rel="stylesheet" href="../Unit-4-Crystal-Game/Assets/Css/Style.css">
+
 </head>
 <body>
 
@@ -24,6 +29,10 @@
       <p>Each time the game starts, the game will change the value of each crystal.</p>
 
     </div>
+
+    <button onclick="document.getElementById('demo').innerHTML = getRndInteger(19,120)">START GAME!</button>
+
+    <div id="startGame"></div>
   
     <div id="randomNumber"></div>
     <div id="wins"></div>

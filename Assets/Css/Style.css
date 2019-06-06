@@ -46,5 +46,13 @@ font-size: 20px;
   
 }
 
+.points{
+  background-color: bisque;
+  font-size: 45px;
+  margin: 15px;
+  width: 55px;
+  padding: 15px;
+}
+
 
 

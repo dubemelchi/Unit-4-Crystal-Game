@@ -6,3 +6,10 @@ h1 {
   padding-left: 40px;
 }
 
+.wrapper{
+background-color: bisque;
+padding: 25px;
+width: 600px;
+margin-bottom: 25px;
+font-size: 20px;
+}

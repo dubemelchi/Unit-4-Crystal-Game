@@ -5,4 +5,22 @@ function getRndInteger(min, max) {
 }
 
 
+// declare my variables
+
+let goal = $('#randomNumber');
+    wins = $('#wins');
+    losses = $('#losses');
+    redBox = $('#red');
+    blueBox = $('#blue');
+    yellowBox = $('#yellow');
+    greenBox = $('#green');
+    totalScore = $('#score');
+
+
+    /*  var number = 1 + Math.floor(Math.random() * 6);
+  $('#my_div').text(number);
+}, */
+
+
+
 

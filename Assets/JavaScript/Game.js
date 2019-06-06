@@ -10,6 +10,8 @@ let goal = $('#randomNumber');
     yellowBox = $('#yellow');
     greenBox = $('#green');
     totalScore = $('#score');
+    addCrystals = 0;
+
 
 
 
@@ -19,24 +21,17 @@ $("#startGame").on('click', function() {
   var number = 1 + Math.floor(Math.random() * 120) + 19;
   $("#randomNumber").text(number);
 
-  $("#wins").text("Wins:" + " " + 0);
-
-  $("#losses").text("Losses:" + " " + 0);
-
-  return;
-
 })
-
-//append wins & losses with values.
-
-
 
 
 // setting crystals to click events
 
 $("#red").on('click', function() {
   var number = 1 + Math.floor(Math.random() * 12);
-  $("#crystalValue").text(number);
+  //$("#crystalValue").text(number);
+  addCrystals++;
+  totalScore.text(addCrystals);
+
 })
 
 $("#blue").on('click', function() {
@@ -54,7 +49,12 @@ $("#green").on('click', function() {
   $("#crystalValue").text(number);
 })
 
+// when crystals are clicked add numers to total score.
+
+
+
 })
+
 
 
 

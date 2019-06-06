@@ -13,3 +13,38 @@ width: 600px;
 margin-bottom: 25px;
 font-size: 20px;
 }
+
+.button{
+  font-size: 20px;
+  margin: 15px;
+  margin-bottom: 30px;
+
+
+}
+
+.goal{
+  width: 100px;
+  background-color: aqua;
+  font-size: 45px;
+  margin: 25px;
+  padding: 15px;
+}
+
+.blue{
+  width: 50px;
+  
+  padding: 5px;
+}
+
+.yellow{
+  width: 50px;
+  
+}
+
+.green{
+  width: 50px;
+  
+}
+
+
+

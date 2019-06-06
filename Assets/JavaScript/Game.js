@@ -31,7 +31,9 @@ $("#startGame").on('click', function() {
 
   var greenCrystal = 1 + Math.floor(Math.random() * 12);
 
-  var crystalMath = "";
+  var crystalMath = [];
+
+  console.log(crystalMath);
 
   var totalCrystals = 0;
 
@@ -45,13 +47,15 @@ $("#startGame").on('click', function() {
 
   $("#red").on('click', function() {
 
+    crystalMath.push(redCrystal);
+  
+    console.log(crystalMath);
   
 
     //crystalTotal = parseInt(crystalTotal);
     //redNumber = parseInt(redNumber);
 
-      //function myFunction() {
-  //crystalTotal.push("redNumber");}
+   
 
     //result = crystalTotal + redNumber;
 

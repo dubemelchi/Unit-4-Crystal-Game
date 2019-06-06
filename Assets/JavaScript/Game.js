@@ -1,10 +1,5 @@
 $(document).ready(function(){
 
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-
-
 // declare my variables
 
 let goal = $('#randomNumber');
@@ -17,15 +12,45 @@ let goal = $('#randomNumber');
     totalScore = $('#score');
 
 
-    /*  var number = 1 + Math.floor(Math.random() * 6);
-  $('#my_div').text(number);
-}, */
+
+//setting random number to start button
+
+$("#startGame").on('click', function() {
+  var number = 1 + Math.floor(Math.random() * 120) + 19;
+  $("#randomNumber").text(number);
+
+  $("#wins").text("Wins:" + " " + 0);
+
+  $("#losses").text("Losses:" + " " + 0);
+
+  return;
+
+})
+
+//append wins & losses with values.
 
 
-// setting red crystal to click event
+
+
+// setting crystals to click events
 
 $("#red").on('click', function() {
-  var number = 1 + Math.floor(Math.random() * 6);
+  var number = 1 + Math.floor(Math.random() * 12);
+  $("#crystalValue").text(number);
+})
+
+$("#blue").on('click', function() {
+  var number = 1 + Math.floor(Math.random() * 12);
+  $("#crystalValue").text(number);
+})
+
+$("#yellow").on('click', function() {
+  var number = 1 + Math.floor(Math.random() * 12);
+  $("#crystalValue").text(number);
+})
+
+$("#green").on('click', function() {
+  var number = 1 + Math.floor(Math.random() * 12);
   $("#crystalValue").text(number);
 })
 

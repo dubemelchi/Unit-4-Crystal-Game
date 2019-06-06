@@ -51,22 +51,35 @@ $("#startGame").on('click', function() {
   
     console.log(crystalMath);
   
+    //remember to add the contents of the array and post to total
+  });
 
-    //crystalTotal = parseInt(crystalTotal);
-    //redNumber = parseInt(redNumber);
+  $("#blue").on('click', function() {
 
-   
-
-    //result = crystalTotal + redNumber;
-
-    //$("#totalScore").text(myFunction);
-
-    //console.log(result);
-
-    //console.log(redNumber);
-    //console.log(crystalTotal);
-});
+    crystalMath.push(blueCrystal);
   
+    console.log(crystalMath);
+  
+    //remember to add the contents of the array and post to total
+  });
+  
+  $("#yellow").on('click', function() {
+
+    crystalMath.push(yellowCrystal);
+  
+    console.log(crystalMath);
+  
+    //remember to add the contents of the array and post to total
+  });
+
+  $("#green").on('click', function() {
+
+    crystalMath.push(greenCrystal);
+  
+    console.log(crystalMath);
+  
+    //remember to add the contents of the array and post to total
+  });
 
  
 

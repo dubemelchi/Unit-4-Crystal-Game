@@ -2,22 +2,6 @@ $(document).ready(function(){
 
 // declare my variables
 
-
-/*let goal = $('#randomNumber');
-    wins = $('#wins');
-    losses = $('#losses');
-    redBox = $('#red');
-    blueBox = $('#blue');
-    yellowBox = $('#yellow');
-    greenBox = $('#green');
-    totalScore = $('#score');
-    addCrystals = 0; */
-
-
-
-
-//setting random number to start button
-
 $("#startGame").on('click', function() {
 
   var number = 1 + Math.floor(Math.random() * 120) + 19;
@@ -52,6 +36,8 @@ $("#startGame").on('click', function() {
     console.log(crystalMath);
   
     //remember to add the contents of the array and post to total
+
+
   });
 
   $("#blue").on('click', function() {
@@ -60,7 +46,7 @@ $("#startGame").on('click', function() {
   
     console.log(crystalMath);
   
-    //remember to add the contents of the array and post to total
+    
   });
   
   $("#yellow").on('click', function() {
@@ -69,7 +55,7 @@ $("#startGame").on('click', function() {
   
     console.log(crystalMath);
   
-    //remember to add the contents of the array and post to total
+    
   });
 
   $("#green").on('click', function() {
@@ -78,12 +64,19 @@ $("#startGame").on('click', function() {
   
     console.log(crystalMath);
   
-    //remember to add the contents of the array and post to total
+    
   });
 
- 
 
+    var sumArr = crystalMath;
+  for (let i = 0; i < crystalMath.length; i++) {
+    sumArr = array[i];
+    
+  }
+
+  console.log(sumArr);
 })
+
 
 
 })

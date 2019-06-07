@@ -23,10 +23,10 @@ $("#startGame").on('click', function() {
 
   $("#totalScore").text(totalCrystals);
 
-  console.log(redCrystal);
-  console.log(blueCrystal);
-  console.log(yellowCrystal);
-  console.log(greenCrystal);
+  //console.log(redCrystal);
+  //console.log(blueCrystal);
+  //console.log(yellowCrystal);
+  //console.log(greenCrystal);
 
 
   $("#red").on('click', function() {
